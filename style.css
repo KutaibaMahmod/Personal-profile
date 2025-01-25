@@ -42,3 +42,38 @@ body {
         grid-template-columns: 1fr;
     }
 }
+/* For smaller devices like phones */
+@media (max-width: 768px) {
+  /* Adjust text size */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Stack images vertically */
+  .about-text img {
+    width: 100%;
+  }
+
+  /* Navbar adjustments */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  /* Adjust other elements as needed */
+  .intro-text {
+    padding: 20px;
+  }
+}
+
+/* For very small devices like mobile phones */
+@media (max-width: 480px) {
+  /* Adjust text size further */
+  h1 {
+    font-size: 20px;
+  }
+
+  /* Stack elements vertically, adjust layout */
+  .about-text {
+    text-align: center;
+  }
+}
